@@ -1,0 +1,10 @@
+---
+title: "Land Art"
+format: html
+from: markdown+emoji
+---
+
+![](img/canada-2017.jpg){width=600 fig-align="center"}
+
+![](img/cairn-ré-2021.jpg){width=600 fig-align="center"}
+

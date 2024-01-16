@@ -1,0 +1,28 @@
+---
+title: "Ludovic Deneuville"
+format: html
+from: markdown+emoji
+image: docs/img/profil.jpg
+about:
+  template: trestles
+  image-width: 20em
+  image-shape: round
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ludo2ne/      
+      target: "_blank"
+    - icon: envelope
+      text: Email
+      href: mailto:ludo2ne@gmail.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ludovic-deneuville
+      target: "_blank"
+---
+
+:construction:
+
+Hello! My name is Ludovic Deneuville and I'm an INSEE agent currently working as a teacher at ENSAI (statistical engineering and information analysis).
+
+I teach various subjects and practical work around the following keywords: Python, SQL, Git, Testing, Code documentation, Java, Big Data.

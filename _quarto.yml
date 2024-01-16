@@ -1,0 +1,34 @@
+project:
+  type: website
+  render:
+    - "**/*.qmd"
+
+website:
+  title: "Ludovic Deneuville"
+  navbar:
+    background: "#AB8D3F"
+    left:
+      - text: IT Course
+        menu: 
+          - href: https://ludo2ne.github.io/ENSAI-2A-complement-info/
+            text: "IT complements"
+            target: "_blank"
+      - text: IT Projects
+        menu: 
+          - href: "https://github.com/ludo2ne/ENSAI-2A-projet-info-template"
+            text: "Basic application"
+            target: "_blank"
+      - href: docs/stats/index.qmd
+        text: Statistics
+      - text: Hobbies
+        menu: 
+          - href: docs/hobbies/landart.qmd
+            text: "Land Art"
+          - href: docs/hobbies/chess.qmd
+            text: "Chess"
+
+format:
+  html:
+    theme: 
+      dark: solar
+      light: cosmo
