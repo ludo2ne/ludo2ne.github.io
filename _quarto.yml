@@ -8,6 +8,8 @@ website:
   navbar:
     background: "#AB8D3F"
     left:
+      - href: index.qmd
+        text: Home
       - text: IT Course
         menu: 
           - href: https://ludo2ne.github.io/ENSAI-2A-complement-info/

@@ -26,3 +26,5 @@ about:
 Hello! My name is Ludovic Deneuville and I'm an INSEE agent currently working as a teacher at ENSAI (statistical engineering and information analysis).
 
 I teach various subjects and practical work around the following keywords: Python, SQL, Git, Testing, Code documentation, Java, Big Data.
+
+I like sports, especially volleyball and surfing. I also enjoy running, swimming and hiking. I've been playing chess for a long time (elo rating: 2000), and like to try out different strategies in board games.

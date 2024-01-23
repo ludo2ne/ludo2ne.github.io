@@ -4,7 +4,13 @@ format: html
 from: markdown+emoji
 ---
 
-![](img/canada-2017.jpg){width=600 fig-align="center"}
+
+![](img/cairn-ré-2022.jpg){width=600 fig-align="center"}
+
+![](img/contis-2022.jpg){width=600 fig-align="center"}
 
 ![](img/cairn-ré-2021.jpg){width=600 fig-align="center"}
+
+![](img/canada-2017.jpg){width=600 fig-align="center"}
+
 
