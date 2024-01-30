@@ -11,26 +11,41 @@ website:
       - href: index.qmd
         text: Home
       - text: IT Course
-        menu: 
+        menu:
           - href: https://ludo2ne.github.io/ENSAI-2A-complement-info/
-            text: "IT complements"
+            text: "IT complements (FR)"
+            target: "_blank"
+          - href: https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/
+            text: "refresher course in Python, SQL, UML (FR)"
             target: "_blank"
       - text: IT Projects
-        menu: 
+        menu:
           - href: "https://github.com/ludo2ne/ENSAI-2A-projet-info-template"
             text: "Basic application"
             target: "_blank"
       - href: docs/stats/index.qmd
         text: Statistics
       - text: Hobbies
-        menu: 
+        menu:
           - href: docs/hobbies/landart.qmd
             text: "Land Art"
           - href: docs/hobbies/chess.qmd
             text: "Chess"
+    right:
+      - icon: github
+        href: https://github.com/ludo2ne/ludo2ne.github.io
+        target: "_blank"
+  page-footer:
+    right: |
+      Website built with [Quarto](https://quarto.org/){.external target="_blank"}<br>
+      [Source Code](https://github.com/ludo2ne/ludo2ne.github.io){.external target="_blank"}
+  repo-url: https://github.com/ludo2ne/ludo2ne.github.io
+  repo-branch: main
+  reader-mode: true
 
 format:
   html:
-    theme: 
+    theme:
       dark: solar
       light: cosmo
+    css: styles.css
