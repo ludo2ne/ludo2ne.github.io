@@ -1,0 +1,9 @@
+---
+title: "Helpful resources"
+description: "Collection of Interesting Links"
+format: html
+from: markdown+emoji
+---
+
+- [The evolution of trust](https://ncase.me/trust/){target="_blank"} by [Nicky Case](https://ncase.me/){target="_blank"} --- ![FR](img/icon-fr.png) [L'évolution de la confiance](https://ayowel.github.io/trust/){target="_blank"}
+- [Solving Rush Hour](https://www.michaelfogleman.com/rush/){target="_blank"} by Michael Fogleman

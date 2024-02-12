@@ -36,6 +36,8 @@ website:
           - href: docs/hobbies/chess.qmd
             text: "Chess"
     right:
+      - href: docs/bookmarks.qmd
+        text: Helpful Resources
       - icon: github
         href: https://github.com/ludo2ne
         target: "_blank"
