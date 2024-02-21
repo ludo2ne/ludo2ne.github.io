@@ -27,8 +27,9 @@ website:
           - href: "https://github.com/ludo2ne/ENSAI-2A-projet-info-template"
             text: "Basic application"
             target: "_blank"
-      - href: docs/stats/index.qmd
-        text: Statistics
+          - href: "https://ludo2ne.github.io/ENSAI-stats/"
+            text: "Stat stuff (FR)"
+            target: "_blank"
       - text: Hobbies
         menu:
           - href: docs/hobbies/landart.qmd
