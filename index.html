@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/" target="_blank">
- <span class="dropdown-text">refresher course in Python, SQL, UML (FR)</span></a>
+ <span class="dropdown-text">Refresher course in Python, SQL, UML (FR)</span></a>
   </li>  
     </ul>
   </li>
@@ -201,8 +201,8 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
 <div class="justify">
-<p>Hello! My name is Ludovic Deneuville. I hold a degree from <a href="https://www.polytech-lille.fr/english/" target="_blank">Polytech’Lille</a> engineering school, specializing in Computer Science, Microelectronics, and Automation. I’m an <a href="https://www.insee.fr/en/accueil" target="_blank">INSEE</a> agent currently working as a teacher at <a href="https://ensai.fr/en/" target="_blank">ENSAI</a> (France’s top graduate school for Statistics and Data Science).</p>
-<p>I teach various subjects and practical work around the following keywords: Python, SQL, Git, Testing, Code documentation, Java, Big Data.</p>
+<p>Hello! My name is Ludovic Deneuville. I hold a degree from <a href="https://www.polytech-lille.fr/english/" target="_blank">Polytech’Lille</a> engineering school, specializing in Computer Science, Microelectronics, and Automation. I’m an <a href="https://www.insee.fr/en/accueil" target="_blank">INSEE</a> agent currently working as a teacher at <a href="https://ensai.fr/en/" target="_blank">ENSAI</a> (France’s Top Graduate School for Statistics and Data Analysis).</p>
+<p>I teach various subjects and practical work centered on: Python, SQL, Git, Testing, Code documentation, Java, Big Data.</p>
 <p>I like sports, especially volleyball and surfing. I also enjoy running, swimming and hiking. I’ve been playing chess for a long time (elo rating: 2000), and like to try out different strategies in board games.</p>
 </div>
 
@@ -426,6 +426,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/ludo2ne\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -460,7 +478,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
