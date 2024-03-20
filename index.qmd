@@ -23,9 +23,9 @@ about:
 
 ::: {.justify}
 
-Hello! My name is Ludovic Deneuville. I hold a degree from [Polytech'Lille](https://www.polytech-lille.fr/english/){target="_blank"} engineering school, specializing in Computer Science, Microelectronics, and Automation. I'm an [INSEE](https://www.insee.fr/en/accueil){target="_blank"} agent currently working as a teacher at [ENSAI](https://ensai.fr/en/){target="_blank"} (France's top graduate school for Statistics and Data Science).
+Hello! My name is Ludovic Deneuville. I hold a degree from [Polytech'Lille](https://www.polytech-lille.fr/english/){target="_blank"} engineering school, specializing in Computer Science, Microelectronics, and Automation. I'm an [INSEE](https://www.insee.fr/en/accueil){target="_blank"} agent currently working as a teacher at [ENSAI](https://ensai.fr/en/){target="_blank"} (France’s Top Graduate School for Statistics and Data Analysis).
 
-I teach various subjects and practical work around the following keywords: Python, SQL, Git, Testing, Code documentation, Java, Big Data.
+I teach various subjects and practical work centered on: Python, SQL, Git, Testing, Code documentation, Java, Big Data.
 
 I like sports, especially volleyball and surfing. I also enjoy running, swimming and hiking. I've been playing chess for a long time (elo rating: 2000), and like to try out different strategies in board games.
 

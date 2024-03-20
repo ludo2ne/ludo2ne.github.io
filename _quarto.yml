@@ -17,7 +17,7 @@ website:
             text: "IT complements (FR)"
             target: "_blank"
           - href: https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/
-            text: "refresher course in Python, SQL, UML (FR)"
+            text: "Refresher course in Python, SQL, UML (FR)"
             target: "_blank"
       - text: Personal Projects
         menu:
