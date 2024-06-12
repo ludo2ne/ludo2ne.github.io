@@ -19,6 +19,10 @@ website:
           - href: https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/
             text: "Refresher course in Python, SQL, UML (FR)"
             target: "_blank"
+          - href: https://ludo2ne.github.io/Git-tuto/
+            text: "Git tutorial (FR)"
+            target: "_blank"
+            
       - text: Personal Projects
         menu:
           - href: "https://ludo2ne.github.io/Quarto-tuto"

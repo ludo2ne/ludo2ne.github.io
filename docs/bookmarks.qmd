@@ -16,3 +16,7 @@ from: markdown+emoji
 
 - [Tea consent](https://www.youtube.com/watch?v=oQbei5JGiT8&ab_channel=BlueSeatStudios){target="_blank"}
 
+
+## Funny
+
+- [Commit Strip](https://www.commitstrip.com/en/){target="_blank"}
