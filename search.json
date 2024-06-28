@@ -46,6 +46,13 @@
     "href": "docs/bookmarks.html#puzzles",
     "title": "Helpful resources",
     "section": "Puzzles",
-    "text": "Puzzles\n\n Lokee avent\n Zupple\n La chasse aux œufs"
+    "text": "Puzzles\n\n Lokee avent\n Zupple\n La chasse aux œufs\nAdvent of code"
+  },
+  {
+    "objectID": "docs/bookmarks.html#tools",
+    "href": "docs/bookmarks.html#tools",
+    "title": "Helpful resources",
+    "section": "Tools",
+    "text": "Tools\n\nArchifiltre, Datavisualization of your file tree. Easily spot duplicates, large files and old files"
   }
 ]
