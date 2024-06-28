@@ -27,3 +27,9 @@ from: markdown+emoji
 - ![FR](img/icon-fr.png) [Lokee avent](https://lockee.fr/avent){target="_blank"}
 - ![FR](img/icon-fr.png) [Zupple](https://zupple.fr/){target="_blank"}
 - ![FR](img/icon-fr.png) [La chasse aux œufs](https://chassetxt.fr/){target="_blank"}
+- [Advent of code](https://adventofcode.com/){target="_blank"}
+
+
+## Tools
+
+- [Archifiltre](https://archifiltre.fr/docs){target="_blank"}, Datavisualization of your file tree. Easily spot duplicates, large files and old files

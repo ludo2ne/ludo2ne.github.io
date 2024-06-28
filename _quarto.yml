@@ -13,11 +13,11 @@ website:
         text: Home
       - text: IT Course
         menu:
-          - href: https://ludo2ne.github.io/ENSAI-2A-complement-info/
-            text: "IT complements (FR)"
+          - href: https://ludo2ne.github.io/ENSAI-2A-complements-info/
+            text: "IT project (FR)"
             target: "_blank"
           - href: https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/
-            text: "Refresher course in Python, SQL, UML (FR)"
+            text: "Programming Essentials: Python, SQL, UML (FR)"
             target: "_blank"
           - href: https://ludo2ne.github.io/Git-tuto/
             text: "Git tutorial (FR)"
