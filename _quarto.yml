@@ -11,10 +11,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: IT Course
+      - text: IT Teaching
         menu:
-          - href: https://ludo2ne.github.io/ENSAI-2A-complements-info/
-            text: "IT project (FR)"
+          - href: https://ludo2ne.github.io/ENSAI-2A-Projet-info/
+            text: "IT Project (FR)"
             target: "_blank"
           - href: https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/
             text: "Programming Essentials: Python, SQL, UML (FR)"
@@ -22,14 +22,13 @@ website:
           - href: https://ludo2ne.github.io/Git-tuto/
             text: "Git tutorial (FR)"
             target: "_blank"
-            
+          - href: https://ludo2ne.github.io/ENSAI-2A-Big-Data/
+            text: "Big Data"
+            target: "_blank"
       - text: Personal Projects
         menu:
           - href: "https://ludo2ne.github.io/Quarto-tuto"
             text: "Quarto tutorial"
-            target: "_blank"
-          - href: "https://github.com/ludo2ne/ENSAI-2A-projet-info-template"
-            text: "Basic application"
             target: "_blank"
           - href: "https://ludo2ne.github.io/ENSAI-stats/"
             text: "Stat stuff (FR)"
