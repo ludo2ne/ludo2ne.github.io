@@ -20,6 +20,8 @@ from: markdown+emoji
 ## Funny
 
 - [Commit Strip](https://www.commitstrip.com/en/){target="_blank"}
+- [Conway's Game of Life](https://playgameoflife.com/){target="_blank"}
+  - [Interactive simulation](https://www.samcodes.co.uk/project/game-of-life/){target="_blank"}
 
 
 ## Puzzles

@@ -14,13 +14,16 @@ website:
       - text: IT Teaching
         menu:
           - href: https://ludo2ne.github.io/ENSAI-2A-Projet-info/
-            text: "IT Project (FR)"
-            target: "_blank"
-          - href: https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/
-            text: "Programming Essentials: Python, SQL, UML (FR)"
+            text: "IT Python Project (FR)"
             target: "_blank"
           - href: https://ludo2ne.github.io/Git-tuto/
             text: "Git tutorial (FR)"
+            target: "_blank"
+          - href: https://ludo2ne.github.io/ENSAI-1A-SQL/
+            text: "Databases and SQL (FR)"
+            target: "_blank"
+          - href: https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/
+            text: "Programming Essentials: Python, SQL, UML (FR)"
             target: "_blank"
           - href: https://ludo2ne.github.io/ENSAI-2A-Big-Data/
             text: "Big Data"
