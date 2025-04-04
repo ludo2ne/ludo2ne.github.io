@@ -25,6 +25,9 @@ website:
           - href: https://ludo2ne.github.io/ENSAI-2A-remise-a-niveau/
             text: "Programming Essentials: Python, SQL, UML (FR)"
             target: "_blank"
+          - href: https://ludo2ne.github.io/ENSAI-2A-Java/
+            text: "Java introduction"
+            target: "_blank"
           - href: https://ludo2ne.github.io/ENSAI-2A-Big-Data/
             text: "Big Data"
             target: "_blank"
